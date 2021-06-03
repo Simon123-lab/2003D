@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add numbers</title>
+</head>
+<body>
+<script>
+var obj={
+    "Name":"Admin",
+    "Age":30,
+    "hobbies":["Cricket","hockey","Football"],
+    "Relative":{"Uncle":"Anees","Cousin":"Asad"}
+
+}
+
+document.write(obj.Name+"<br>"+obj.Age+"<br>"+obj.hobbies[0]+"<br>"+obj.hobbies[1]+"<br>"+obj.hobbies[2]+"<br>"+obj.Relative["Uncle"]+"<br>"+obj.Relative["Cousin"]);
+
+
+
+var obj2={
+    "name":"admin",
+    "age":30,
+    "city":"Karachi",
+    "country":"Pakistan",
+  
+
+}
+
+document.write("<br>");
+for(key in obj2)
+{
+    document.write(obj2[key]+"<br>");
+}
+
+
+document.write("<br>");
+var obj3=["Cricket","Hockey","Football","Football"]
+for(key2=0; key2<obj3.length; key2++)
+{
+    document.write(obj3[key2]+"<br>");
+}
+
+
+</script>
+
+</body>
